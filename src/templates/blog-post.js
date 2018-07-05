@@ -27,9 +27,8 @@ export const BlogPostTemplate = ({
             </h1>
 
             <span className="tag">
-              Written By: {author}
+              {author}
             </span>
-            <hr>
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
