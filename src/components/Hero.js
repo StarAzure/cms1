@@ -15,7 +15,6 @@ const Hero = () => (
                             <div class="subtitle light-subtitle">
                                 Jumpstart your design process and deliver the right experience to your customers
                             </div>
-                            <!-- CTA button -->
                             <div class="has-text-centered">
                                 <a href="#" class="button button-cta primary-btn rounded raised">More Posts</a>
                             </div>
