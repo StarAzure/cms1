@@ -3,13 +3,14 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
 import './all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="Home | Gatsby + Netlify CMS" />
-    <h1>Kal Blog</h1>
+    <Helmet title="Blog Clouds" />
     <Navbar />
+    <Hero />
     <div>{children()}</div>
   </div>
 )
